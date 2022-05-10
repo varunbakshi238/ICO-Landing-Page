@@ -55,6 +55,8 @@ const Signup = () => {
   
     const [currentStep, setCurrentStep] = useState(0);
 
+
+    // signup user functionality
     const request = async (newData) => {
         try{
             const collectionRef = collection(database, 'users')
@@ -62,7 +64,6 @@ const Signup = () => {
             
             const userCredential = await createUserWithEmailAndPassword(auth, newData.email,newData.password)
             const user = userCredential.user
-            
             
             const formData = {...newData, uid: user.uid}
             delete formData.password
@@ -94,14 +95,13 @@ const Signup = () => {
         }
     }
 
-    const handleNextStep = (newData, final=false) => {
-        setData((prev) => ({...prev,  ...newData}));
-        if(final){
-            // makeRequest(newData);      
-        }    
+    // For moving to next step
+    const handleNextStep = (newData) => {
+        setData((prev) => ({...prev,  ...newData}));    
         setCurrentStep((prev) => prev+1);
     }
 
+    // For going back to prev step
     const handlePrevStep = (newData) => {
         setData((prev) => ({...prev, ...newData}));
         setCurrentStep((prev) => prev-1);
