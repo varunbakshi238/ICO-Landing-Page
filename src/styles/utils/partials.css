@@ -1,0 +1,79 @@
+.grad{
+    background-color:  #9C27B0;
+    background-image: linear-gradient(120deg, #FF4081, #81D4FA);
+    min-height: 100vh;
+  }
+  
+  .innerContainer{
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 40px 40px 30px 40px;
+  }
+  
+  .innerContainer .text-center{
+    font-weight: 500 !important;
+    font-size: 46px;
+  }
+  
+  .successContainer button{
+    display: block;
+    margin: auto;
+  
+  }
+  
+  .success{
+    font-size: 270px !important;
+    display: block !important;
+    margin: auto;
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  
+  .loginForm button{
+    display: block;
+    margin: 30px auto 0px auto;
+  }
+
+
+
+
+/* scroll-to-top */
+
+
+  .scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 52px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 52px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 15px 15px 0 0;
+    background: #3772FF;
+    /* display: none; */
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  
+  .scroll-to-top img{
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    height: 10px;
+  }
+  
+  .scroll-to-top:hover {
+    color: #ffffff;
+    background: #3772FF;
+  }
+  

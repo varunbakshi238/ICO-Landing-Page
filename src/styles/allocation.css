@@ -1,0 +1,200 @@
+.allocation-two{
+    position: relative;
+    padding: 130px 0px 150px;
+  }
+  
+  .allocation-two:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(top,#f9fcfe,rgba(0,0,0,0));
+    background: -ms-linear-gradient(top,#f9fcfe,rgba(0,0,0,0));
+    background: -moz-linear-gradient(top,#f9fcfe,rgba(0,0,0,0));
+    display: none;
+  }
+  
+  .allocation-two .curve-layer{
+      position:absolute;
+      left:0px;
+      top:0;
+      width:100%;
+      height:280px;
+      opacity:1;
+      z-index: 0;
+      background: url('../assets/curlyCurve.png');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 100% 100%;
+  }
+  
+  .allocation-two .pattern-layer{
+    position: absolute;
+    right: 0px;
+    bottom: -235px;
+  }
+  
+  .allocation-two .tabs-box{
+    position: relative;
+  }
+  
+  .allocation-two .tabs-box .tab-buttons{
+    position: relative;
+    text-align: center;
+    padding-bottom: 45px;
+  }
+  
+  .allocation-two .tabs-box .tab-buttons .tab-btn{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    color: #6D747C;
+    background: #DCDCE7;
+    margin: 0 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .allocation-two .tabs-box .tab-buttons .active-btn{
+    color: #ffffff;
+    background: #48DCA8;
+  }
+  
+  .allocation-two .tabs-box .tabs-content{
+    position: relative;
+  }
+  
+  .allocation-two .tabs-box .tab{
+    position: relative;
+  }
+  
+  .allocation-two .graph-image{
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+  }
+  
+  .allocation-two .graph-image .image{
+    position: relative;
+    display: block;
+  }
+  
+  .allocation-two .progress-col{
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 410px;
+  }
+  
+  .allocation-two .progress-col .inner{
+    position: relative;
+    display: block;
+    padding-top: 50px;
+  }
+  
+  .allocation-two .progress-col.right{
+    float: right;
+  }
+  
+  .allocation-two .progress-box{
+    position: relative;
+  }
+  
+  .allocation-two .bar-block{
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .allocation-two .progress-box .bar-legend{
+      position: relative;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      color: #101010;
+      margin-bottom: 10px;
+  }
+  
+  .allocation-two .progress-box .prog-bar{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .allocation-two .progress-box .prog-bar:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.12;
+    border-radius: 5px;
+  }
+  
+  .allocation-two .progress-box .prog-bar .bar-inner{
+    position: relative;
+    display: block;
+    height: 10px;
+    background: #3772FF;
+    border-radius: 5px;
+  }
+  
+  .allocation-two .progress-box .color-1:before{
+    background: #3D88FB;
+  }
+  
+  .allocation-two .progress-box .color-1 .bar-inner{
+      background: #3D88FB;
+  }
+  
+  .allocation-two .progress-box .color-2:before{
+    background: #5637C8;
+  }
+  
+  .allocation-two .progress-box .color-2 .bar-inner{
+      background: #5637C8;
+  }
+  
+  .allocation-two .progress-box .color-3:before{
+    background: #00D89E;
+  }
+  
+  .allocation-two .progress-box .color-3 .bar-inner{
+      background: #00D89E;
+  }
+  
+  .allocation-two .progress-box .color-4:before{
+    background: #ACDF35;
+  }
+  
+  .allocation-two .progress-box .color-4 .bar-inner{
+      background: #ACDF35;
+  }
+  
+  .allocation-two .progress-box .color-5:before{
+    background: #FF9B5C;
+  }
+  
+  .allocation-two .progress-box .color-5 .bar-inner{
+      background: #FF9B5C;
+  }
+  
+  .allocation-two .progress-box .color-6:before{
+    background: #FC3352;
+  }
+  
+  .allocation-two .progress-box .color-6 .bar-inner{
+      background: #FC3352;
+  }
+  

@@ -1,0 +1,107 @@
+.intro-two{
+    position: relative;
+    padding: 70px 0px 70px;
+  }
+  
+  .intro-two .auto-container{
+    max-width: 1140px;
+  }
+  
+  .intro-two .image-col{
+    position: relative;
+    order: 0;
+    margin-bottom: 30px;
+  }
+  
+  .intro-two .image-col .inner{
+    position: relative;
+    min-height: 100%;
+  }
+  
+  .intro-two .image-col .image{
+    position: relative;
+    display: block;
+  }
+  
+  .intro-two .image-col .image img{
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .intro-two .text-col{
+    position: relative;
+    order: 12;
+  }
+  
+  .intro-two .text-col .inner{
+    position: relative;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  .intro-two .info-block{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .intro-two .info-block .inner-box{
+    position: relative;
+    display: block;
+    max-width: 490px;
+    padding-left: 75px;
+    padding-top: 10px;
+    min-height: 70px;
+  }
+  
+  .intro-two .info-block .inner-box:before{
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 48px;
+    height: 100%;
+    border-left: 2px dashed #679FEF;
+  }
+  
+  .intro-two .info-block:last-child .inner-box:before{
+    display: none;
+  }
+  
+  .intro-two .info-block .icon-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    background: #0A8F61;
+    color: #ffffff;
+    border-radius: 50%;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+  }
+  
+  .intro-two .info-block .inner-box:hover .icon-box{
+    -webkit-transform: scale(-1) rotate(180deg);
+      -moz-transform: scale(-1) rotate(180deg);
+      -ms-transform: scale(-1) rotate(180deg);
+      -o-transform: scale(-1) rotate(180deg);
+      transform: scale(-1) rotate(180deg);
+  }
+  
+  .intro-two .info-block h5{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  
+  .intro-two .info-block .text{
+    max-width: 330px;
+    font-size: 14px;
+    line-height: 22px;
+  }

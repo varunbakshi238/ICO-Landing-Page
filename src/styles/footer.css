@@ -1,0 +1,179 @@
+.footer-two{
+    position: relative;
+    background: #283445;
+    color: #ffffff;
+    padding: 0 0;
+  }
+  
+  .footer-two .upper-section{
+    position: relative;
+    padding: 60px 0px 40px;
+  }
+  
+  .footer-two .footer-column{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .footer-two .footer-widget{
+    position: relative;
+  }
+  
+  .footer-two .widget-title{
+    position: relative;
+    margin-bottom: 45px;
+  }
+  
+  .footer-two .widget-title h5{
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 0;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .footer-two .footer-widget .widget-content{
+    position: relative;
+    display: block;
+  }
+  
+  .footer-two .upper-section .footer-logo{
+    position: relative;
+    margin-top: -7px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-two .upper-section .text{
+    position: relative;
+    max-width: 360px;
+  }
+  
+  .footer-two .upper-section .link-box{
+    position: relative;
+    padding-top: 30px;
+  }
+  
+  .footer-two .upper-section .links{
+    position: relative;
+  }
+  
+  .footer-two .upper-section .links li{
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  .footer-two .upper-section .links li:last-child{
+    margin-bottom: 0;
+  }
+  
+  .footer-two .upper-section .links li a{
+    position: relative;
+    display: block;
+    font-weight: 400;
+    color: #F6F6F6;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+  }
+  
+  .footer-two .upper-section .links li a:hover{
+    color: #48DCA8;
+    text-decoration: underline;
+  }
+  
+  .footer-two .upper-section .cards{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .footer-two .upper-section .social-links{
+    position: relative;
+  }
+  
+  .footer-two .upper-section .social-links .s-title{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 18px;
+    padding-bottom: 0px;
+  }
+  
+  .footer-two .upper-section .social-links .s-title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    border-bottom: 1px solid #797979;
+  }
+  
+  .footer-two .upper-section .social-links li{
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .footer-two .upper-section .social-links li:last-child{
+    margin-right: 0;
+  }
+  
+  .footer-two .upper-section .social-links li a{
+    position: relative;
+    display: block;
+    width: 36px;
+    height: 36px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 36px;
+    background: #ffffff;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+  }
+  
+  .footer-two .upper-section .social-links li a:hover{
+    opacity: 0.70;
+  }
+  
+  .footer-two .lower{
+    position: relative;
+  }
+  
+  .footer-two .lower .inner{
+    position: relative;
+    display: block;
+    padding: 22px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #F6F6F6;
+    border-top: 1px solid rgba(220, 220, 231, 0.4);
+  }
+  
+  .footer-two .lower .copyright{
+    position: relative;
+    color: #F6F6F6;
+    text-align: center;
+  }
+  
+  .footer-two .lower .copyright a{
+    position: relative;
+    color: #F6F6F6;
+  }
+  
+  .footer-two .lower .copyright a:hover{
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,57 @@
+
+.header-two.fixed-header .header-upper {
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    border-bottom-color: #48DCA8;
+}
+
+.header-two .main-menu .navigation > li > a{
+  color: #283445;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.header-two .main-menu .navigation > li > a.mPS2id-highlight-first,
+.header-two .main-menu .navigation > li > a.mPS2id-highlight-last{
+  color: #48DCA8;
+  text-decoration: none;
+  opacity:1;
+}
+
+.header-two .header-upper .links-box{
+  padding-top: 23px;
+  margin-left: 80px;
+}
+
+.header-two .header-upper .links-box .link .theme-btn{
+  padding: 7px 25px;
+  font-size: 14px;
+}
+
+.header-two .lang-box .lang-btn{
+  line-height: 24px;
+  padding: 6px 12px;
+  color: #101010;
+  border: 1px solid #C2C2C2;
+  border-radius: 8px;
+}
+
+.header-two .lang-box .lang-btn .arrow{
+  padding-left: 3px;
+}
+
+.header-two .lang-box{
+  padding-left: 0;
+  margin-left: 5px;
+}
+
+.header-two .lang-box:before{
+  display: none;
+}
+
+.header-two .lang-box .lang-list{
+  left: 0;
+  width: 100%;
+  background: #48DCA8;
+}
